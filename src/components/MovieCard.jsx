@@ -13,7 +13,7 @@ const MovieCard = ({ movie, showLink = true }) => {
         <FaStar />
         {movie.vote_average}
       </p>
-      {showLink && <Link to={`/movie/${movie.id}`}>Detalhes</Link>}
+      {showLink && <Link to={`/React-TMDB/movie/${movie.id}`}>Detalhes</Link>}
     </div>
   );
 };
